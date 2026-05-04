@@ -1,0 +1,30 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.85); /* Fundo escuro levemente transparente */
+    color: #cdd6f4;
+}
+
+#workspaces button {
+    padding: 0 12px;
+    color: #cdd6f4;
+}
+
+#workspaces button.active {
+    background-color: #89b4fa; /* Destaque azul para a área ativa */
+    color: #1e1e2e;
+    border-radius: 12px;
+}
+
+#clock, #pulseaudio, #network, #bluetooth, #battery, #tray {
+    padding: 0 12px;
+    margin: 4px 6px;
+    background-color: #313244; /* Fundo dos botões da direita */
+    border-radius: 12px;
+}
