@@ -21,7 +21,8 @@
     },
     "network": {
         "format-wifi": "WIFI {essid}",
-        "format-disconnected": "NO INTERNET"
+        "format-disconnected": "NO INTERNET",
+        "on-click": "nm-connection-editor"
     },
     "bluetooth": {
         "format": "BT {status}"
