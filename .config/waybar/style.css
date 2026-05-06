@@ -22,9 +22,9 @@ window#waybar {
     border-radius: 12px;
 }
 
-#clock, #pulseaudio, #network, #bluetooth, #battery, #tray {
+#clock, #pulseaudio, #backlight, #network, #bluetooth, #battery, #custom-notification, #tray {
     padding: 0 12px;
     margin: 4px 6px;
-    background-color: #313244; /* Fundo dos botões da direita */
+    background-color: #313244;
     border-radius: 12px;
 }
