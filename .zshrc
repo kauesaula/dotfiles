@@ -30,6 +30,7 @@ fi
 # -----------------------------------------------------
 # ALIASES DE INFRAESTRUTURA
 # -----------------------------------------------------
+alias ff="fastfetch"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cat="bat"
 alias upg="sudo dnf upgrade"
@@ -42,3 +43,6 @@ alias hypr="nvim ~/.config/hypr/hyprland.conf"
 alias hypr-system="nvim ~/.config/hypr/hypr-system.conf"
 alias hypr-visuals="nvim ~/.config/hypr/hypr-visuals.conf"
 alias hypr-inputs="nvim ~/.config/hypr/hypr-inputs.conf"
+alias hypr-paper="nvim ~/.config/hypr/hyprpaper.conf"
+alias hypr-idle="nvim ~/.config/hypr/hypridle.conf"
+alias hypr-lock="nvim ~/.config/hypr/hyprlock.conf"
