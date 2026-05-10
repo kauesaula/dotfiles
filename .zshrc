@@ -31,3 +31,11 @@ fi
 # ALIASES DE INFRAESTRUTURA
 # -----------------------------------------------------
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias cat="bat"
+alias upg="sudo dnf upgrade"
+alias upd="sudo dnf update"
+alias ins="sudo dnf install"
+alias shut="sudo shutdown now"
+alias search="dnf search"
+alias ls="eza -l --icons"
+alias hypr="nvim ~/.config/hypr/hyprland.conf"

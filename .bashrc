@@ -24,3 +24,10 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 alias config='/usr/bin/git --git-dir=/home/kaiito_/.dotfiles/ --work-tree=/home/kaiito_'
+alias cat="bat"
+alias upg="sudo dnf upgrade"
+alias upd="sudo dnf update"
+alias ins="sudo dnf install"
+alias shut="sudo shutdown now"
+alias search="sudo dnf search"
+alias ls="eza -l --icons"
